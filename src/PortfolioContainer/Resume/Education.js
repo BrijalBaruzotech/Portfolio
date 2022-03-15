@@ -35,7 +35,7 @@ export default function Education() {
                 {data.details}
               </div>
             </div>
-            <div className="md:hidden block p-4">
+            <div className="md:hidden block p-3">
               <div classname="flex justify-start items-center text-sm">
                 {data.place}
               </div>

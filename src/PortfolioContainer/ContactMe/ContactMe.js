@@ -15,11 +15,11 @@ export default function ContactMe() {
         Let's Keep in Touch
       </div>
       <div className="flex justify-center p-3">
-        <div className="">
+        <div>
           <Symbol />
         </div>
       </div>
-      <div className="md:w-3/5 w-4/5 h-400 flex flex-col p-5 bg-navyBlue rounded-2xl shadow-slate-400 shadow-2xl space-y-2">
+      <div className="md:w-3/5 w-10/12 md:h-400 h-580 flex flex-col p-5 bg-navyBlue rounded-2xl shadow-slate-400 shadow-2xl space-y-2">
         <div className="flex justify-start text-white fontPoppins md:text-2xl text-sm">
           <Typewriter
             className="animate-infinite text-white"
@@ -55,7 +55,7 @@ export default function ContactMe() {
             })}
           </div>
           <div className="md:block hidden">
-            <div className="w-4/5 flex flex-rows items-center">
+            <div className="w-82 flex flex-rows items-center">
               <div className="flex flex-col space-y-8">
                 <div className="flex items-end text-gray-400 fontPoppins text-xl">
                   Send your message here!
@@ -104,7 +104,7 @@ export default function ContactMe() {
               </div>
             </div>
           </div>
-          <div className="md:hidden block">
+          <div className="md:hidden block p-2">
             <div className="w-full flex flex-rows space-y-3">
               <div className="flex flex-col space-y-2">
                 <div className="flex text-gray-400 fontPoppins text-sm">
@@ -116,14 +116,14 @@ export default function ContactMe() {
               <img src={Mailz} alt="noImage" className="opacity-70"></img>
               <div className="flex justify-center items-center"></div>
             </div>
-            <div className="-ml-4 flex justify-center items-center">
-              <form className="w-full h-full rounded-xl bg-greyOff p-3 ml-4">
+            <div className="flex justify-center items-center">
+              <form className="w-full h-full rounded-xl bg-greyOff p-3">
                 <div>
                   <label className="text-sm">Name</label>
                 </div>
                 <div>
                   <input
-                    className="w-full h-4 bg-smoke rounded"
+                    className="w-full h-8 bg-smoke rounded"
                     type="text"
                   ></input>
                 </div>
@@ -132,7 +132,7 @@ export default function ContactMe() {
                 </div>
                 <div>
                   <input
-                    className="w-full h-4 bg-smoke rounded"
+                    className="w-full h-8 bg-smoke rounded"
                     type="text"
                   ></input>
                 </div>
