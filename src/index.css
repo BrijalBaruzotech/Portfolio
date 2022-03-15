@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  html {
+    font-family: Proxima Nova, system-ui, sans-serif, cursive;
+  }
+}
+
+@font-face {
+  font-family:"GreatVibes-Regular";
+  src: url("GreatVibes-Regular.woff") format("woff"),
+    url("GreatVibes-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family:"Poppins-Bold";
+  src: url("../Poppins-Bold.woff") format("woff"),
+    url("../Poppins-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.fontPoppins {
+  font-family: "Poppins";
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.newFont {
+  font-family: "GreatVibes-Regular";
+}
+
+.backImg {
+  background-image: "url(src/Images/mailz.jpeg)";
+  opacity: 40;
+}
