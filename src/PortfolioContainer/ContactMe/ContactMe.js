@@ -64,7 +64,7 @@ export default function ContactMe() {
                   <img src={Mailz} alt="noImage" className="opacity-70"></img>
                   <div className="flex justify-center items-center">
                     <div className="flex flex-col p-3">
-                      <form className="w-480 h-450 rounded-xl space-y-2 bg-greyOff p-5">
+                      <form className="w-480 h-450 rounded-xl space-y-8 bg-greyOff p-5">
                         <div>
                           <label>Name</label>
                         </div>
