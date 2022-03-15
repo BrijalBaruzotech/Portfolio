@@ -117,7 +117,7 @@ export default function ContactMe() {
               <div className="flex justify-center items-center"></div>
             </div>
             <div className="flex justify-center items-center">
-              <form className="w-full h-full rounded-xl bg-greyOff p-3">
+              <form className="w-full h-full rounded-xl bg-greyOff p-2">
                 <div>
                   <label className="text-sm">Name</label>
                 </div>
@@ -141,12 +141,12 @@ export default function ContactMe() {
                 </div>
                 <div>
                   <input
-                    className="w-full h-6 bg-smoke rounded"
+                    className="w-full h-14 bg-smoke rounded"
                     type="text"
                   ></input>
                 </div>
                 <div className="flex justify-center items-center mt-3">
-                  <button className="bg-smoke text-black w-24 h-6 text-sm rounded-full">
+                  <button className="bg-smoke text-black w-24 h-8 text-sm rounded-full">
                     Send me
                   </button>
                 </div>
