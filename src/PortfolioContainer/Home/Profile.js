@@ -45,7 +45,7 @@ export default function Profile() {
           <div className="flex justify-center items-center space-x-2">
             {icons.map((icon) => {
               return (
-                <a href={icon.link} target="_blank">
+                <a href={icon.link} target="_blank" rel="noreferrer">
                   <FontAwesome
                     className="flex-row justify-center items-center super-crazy-colors"
                     name={icon.name}
