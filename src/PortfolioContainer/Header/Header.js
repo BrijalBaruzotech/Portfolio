@@ -4,14 +4,8 @@ import NavbarIcon from "../../Images/Navbar.png";
 import CancelIcon from "../../Images/Cancel.png";
 
 export default function Header() {
-  const [setMenu] = useState("Home");
+ 
   const [open, setOpen] = useState(false);
-
-  const menuSelect = () => {
-    setMenu();
-
-    console.log("INDEX :");
-  };
 
   const response = () => {
     setOpen(!open);
