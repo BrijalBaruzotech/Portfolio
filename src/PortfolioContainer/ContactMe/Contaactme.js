@@ -33,7 +33,7 @@ export default function Contaactme() {
           <div className="flex justify-start items-center space-x-3">
             {icons.map((icon) => {
               return (
-                <a href={icon.link} target="_blank">
+                <a href={icon.link} target="_blank" rel="noreferrer">
                   <FontAwesome
                     className="flex-row justify-center items-center super-crazy-colors"
                     name={icon.name}
