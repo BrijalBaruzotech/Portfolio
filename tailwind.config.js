@@ -41,12 +41,14 @@ module.exports = {
         480: "480px",
         500: "500px",
         680: "680px",
+        800: "800px",
       },
       variants: {
         width: ["responsive", "hover", "focus"],
       },
       backgroundImage: {
         messageImage: "url(Images/mailz.jpeg)",
+        backGroundForTest : "url(Images/bg-1.jpg)"
       },
     },
   },

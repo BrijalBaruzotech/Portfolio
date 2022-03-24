@@ -25,7 +25,7 @@ export default function Resume() {
   };
 
   return (
-    <div className="space-y-4 mt-7">
+    <div className="space-y-4 md:mt-7">
       <div className="md:block hidden md:text-4xl text-2xl flex justify-center text-black text-center font-semibold">
         Resume
       </div>
@@ -40,8 +40,8 @@ export default function Resume() {
       <div className="md:block hidden">
         <div className="flex flex-row justify-center items-center">
           <div className="flex flex-row">
-            <div className="flex flex-col">
-              <div className="flex flex-col justify-center items-center shadow-lg shadow-slate-700">
+            <div className="flex flex-col ">
+              <div className="flex flex-col justify-center items-center shadow-lg shadow-slate-400">
                 {icons.map((icon) => {
                   return (
                     <div className="w-12 h-10 bg-navyBlue flex-col flex justify-center items-center py-10">
@@ -62,10 +62,10 @@ export default function Resume() {
             <div className="md:block hidden">
               <div className="flex flex-col">
                 <div className="flex flex-col">
-                  <div className="flex flex-col justify-center items-center shadow-lg shadow-slate-700">
+                  <div className="flex flex-col justify-center items-center shadow-lg shadow-slate-400">
                     <div className="w-64 h-10 flex-col flex justify-center items-start py-10">
                       <div
-                        className="w-56 h-12 p-1 -ml-4 text-center text-lg transition hover:bg-navyBlue rounded-l rounded-full hover:text-white"
+                        className="w-56 h-12 p-1 text-center text-lg transition hover:bg-navyBlue rounded-l rounded-full hover:text-white"
                         onMouseEnter={() => makeActive("Education")}
                       >
                         Education
@@ -73,7 +73,7 @@ export default function Resume() {
                     </div>
                     <div className="w-64 h-10  flex-col flex justify-center items-start py-10">
                       <div
-                        className="w-56 h-12 p-1 -ml-4 text-center text-lg transition hover:bg-navyBlue rounded-l rounded-full hover:text-white"
+                        className="w-56 h-12 p-1 text-center text-lg transition hover:bg-navyBlue rounded-l rounded-full hover:text-white"
                         onMouseEnter={() => makeActive("WorkExperience")}
                       >
                         Experience
@@ -81,7 +81,7 @@ export default function Resume() {
                     </div>
                     <div className="w-64 h-10  flex-col flex justify-center items-start py-10">
                       <div
-                        className="w-56 h-12 p-1 -ml-4 text-center text-lg transition hover:bg-navyBlue rounded-l rounded-full hover:text-white"
+                        className="w-56 h-12 p-1 text-center text-lg transition hover:bg-navyBlue rounded-l rounded-full hover:text-white"
                         onMouseEnter={() => makeActive("Projects")}
                       >
                         Projects
@@ -89,7 +89,7 @@ export default function Resume() {
                     </div>
                     <div className="w-64 h-10  flex-col flex justify-center items-start py-10">
                       <div
-                        className="w-56 h-12 p-1 -ml-4 text-center text-lg transition hover:bg-navyBlue rounded-l rounded-full hover:text-white"
+                        className="w-56 h-12 p-1 text-center text-lg transition hover:bg-navyBlue rounded-l rounded-full hover:text-white"
                         onMouseEnter={() => makeActive("Skills")}
                       >
                         Programming Skills
@@ -97,7 +97,7 @@ export default function Resume() {
                     </div>
                     <div className="w-64 h-10  flex-col flex justify-center items-start py-10">
                       <div
-                        className="w-56 h-12 p-1 -ml-4 text-center text-lg transition hover:bg-navyBlue rounded-l rounded-full hover:text-white"
+                        className="w-56 h-12 p-1 text-center text-lg transition hover:bg-navyBlue rounded-l rounded-full hover:text-white"
                         onMouseEnter={() => makeActive("Interest")}
                       >
                         Interest
@@ -108,7 +108,7 @@ export default function Resume() {
               </div>
             </div>
             <div className="md:block hidden">
-              <div className="w-680 h-400 flex flex-col justify-center">
+              <div className="w-680 h-400 flex flex-col justify-center shadow-lg shadow-zinc-400">
                 <div className="w-680 flex flex-col justify-center">
                   {activeKey === "Education" && (
                     <div>

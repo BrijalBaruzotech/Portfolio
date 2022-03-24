@@ -10,9 +10,9 @@ export default function Skills() {
       {programmingSkills.map((data) => {
         return (
           <div className="flex flex-col justify-center items-center">
-            <div className="flex flex-row justify-center items-center">
-              <div className="flex justify-center items-center"><div className="w-3 h-3 bg-orange-600 rounded-full"></div></div>
-              <div className="flex justify-center items-center p-3">{data.skill}</div>
+            <div className="grid grid-cols-2">
+              <div className="flex w-12 h-12 justify-center items-center p-4"><div className="w-3 h-3 bg-orange-600 rounded-full"></div></div>
+              <div className="flex w-12 h-12 justify-center items-center p-4">{data.skill}</div>
             </div>
           </div>
         );

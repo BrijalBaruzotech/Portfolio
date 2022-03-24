@@ -17,22 +17,12 @@ export function TypingText() {
   return (
     <div>
       <Typewriter
-        className="animate-infinite"
-        onInit={(typewriter) => {
-          typewriter
-            .start()
-            .typeString("Welcomes You")
-            .pauseFor(100)
-            .deleteAll()
-            .typeString("I am Jr React Developer")
-            .pauseFor(100)
-            .deleteAll()
-            .typeString("I am Hardworking")
-            .pauseFor(100)
-            .deleteAll()
-            .start();
-        }}
-      />
+              options={{
+                strings: ["Welcomes you", "I am Jr React Developer","I am Hardworking"],
+                autoStart: true,
+                loop: true,
+              }}
+            />
     </div>
   );
 }
@@ -75,20 +65,10 @@ export default function Profile() {
           </div>
           <div className="md:text-5xl flex justify-center items-center text-2xl text-justify text-yellow-300 newFont">
             <Typewriter
-              className="animate-infinite"
-              onInit={(typewriter) => {
-                typewriter
-                  .start()
-                  .typeString("Welcomes You")
-                  .pauseFor(100)
-                  .deleteAll()
-                  .typeString("I am Jr React Developer")
-                  .pauseFor(100)
-                  .deleteAll()
-                  .typeString("I am Hardworking")
-                  .pauseFor(100)
-                  .deleteAll()
-                  .start();
+              options={{
+                strings: ["Welcomes you", "I am Jr React Developer","I am Hardworking"],
+                autoStart: true,
+                loop: true,
               }}
             />
           </div>

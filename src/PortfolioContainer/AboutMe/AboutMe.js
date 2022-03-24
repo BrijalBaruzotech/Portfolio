@@ -33,7 +33,7 @@ export default function AboutMe() {
               summary statement is often referred to by other names, including:
               Career summary Personal statement Professional summary Summary of
               experience Summary of qualifications Qualifications summary
-              Competencies
+              Competencies.
             </p>
             <div className="md:block hidden flex justify-center items-end space-x-3">
               <button className="bg-black text-white text-l rounded-full w-36 h-10 transition duration-150 hover:ease-in hover:bg-cyan-100 hover:text-blue-900">

@@ -8,13 +8,13 @@ export default function Interest() {
   ];
 
   return (
-    <div className="p-16">
+    <div className="flex flex-col justify-center items-center">
       {interest.map((data) => {
         return (
-          <div className="flex flex-col justify-center items-center">
-            <div className="flex flex-row space-x-3">
-              <div className="flex justify-center items-center"><div className="w-3 h-3 bg-orange-600 rounded-full"></div></div>
-              <div className="p-2">{data.Hobby}</div>
+          <div className="flex flex-col justify-center items-center p-3">
+            <div className="grid grid-cols-2">
+              <div className="flex w-24 h-6 justify-center items-center "><div className="w-3 h-3 bg-orange-600 rounded-full"></div></div>
+              <div className="flex w-12 h-6 justify-center items-center ">{data.Hobby}</div>
             </div>
           </div>
         );

@@ -27,8 +27,8 @@ export default function Education() {
                 <div classname="flex justify-start items-center text-lg">
                   {data.board}
                 </div>
-                <div classname="flex justify-start items-center text-lg bg-orange-600 p-1 rounded-full">
-                  {data.year}
+                <div classname="flex justify-start items-center text-lg">
+                  <div className="w-20 h-8 flex justify-center items-center bg-orange-500 p-2 rounded-full">{data.year}</div>
                 </div>
               </div>
               <div classname="flex justify-center items-center text-lg">
