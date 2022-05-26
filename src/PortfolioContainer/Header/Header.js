@@ -72,7 +72,7 @@ export default function Header() {
           <div className="flex justify-center items-center">
             <div className="w-3/5 h-36 flex justify-between space-x-2 items-center">
               <div className="text-6xl font-bold text-white text-justify items-center">
-                Ehizeex ~
+                Brijal ~
               </div>
               <div className="flex justify-between items-center space-x-8">
                 <Link to="home" spy={false} smooth={false}>
